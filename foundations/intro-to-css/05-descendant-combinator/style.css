@@ -1,1 +1,32 @@
-/* Add CSS Styling */
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+/*  
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
+
+    * Only the `p` elements that are descendants of the `div` element should have a yellow background, 
+    red text, a font size of 20px, and center aligned.
+
+if you're feeling adventurous 
+you can even try combining a type *and* class selector for the descendant combinator.
+*/
+.container p.text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} 
