@@ -1,3 +1,18 @@
+/* * {
+  background-color: rgb(97, 71, 71);
+  border: 2px solid red;
+} */
+
+img {
+  margin: 150px;
+  display: block;
+  height: 150px;
+  width: auto;
+}
+
+/* You should only have to change the values of the margin and padding for this exercise. 
+You should not have to add or remove properties in the CSS */
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -7,15 +22,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .three {
@@ -23,6 +38,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  margin-left: auto;
 }
